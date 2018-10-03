@@ -10,3 +10,6 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode s
 sudo apt-get install apt-transport-https
 sudo apt-get update
 sudo apt-get install code
+
+# Set it as the default text editor
+xdg-mime default code.desktop text/plain
